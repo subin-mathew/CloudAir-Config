@@ -1,7 +1,8 @@
- xmas-fifth-day:
-   calling-birds: four
-   french-hens: 3
-   golden-rings: 5
-   partridges:
-     count: 1
-     location: "a pear tree"
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/cloudair-employees
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
